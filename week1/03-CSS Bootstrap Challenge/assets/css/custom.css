@@ -1,0 +1,20 @@
+img.nav-logo {
+    max-height: 40px;
+    width: auto;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%);
+}
+
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
