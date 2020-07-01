@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/register', 'AuthController@register');
+Route::get('/register', 'AuthController@index')->name('register');
+Route::post('/register', 'AuthController@register')->name('register');
 
-Route::get('/welcome', 'AuthController@welcome');
+Route::get('/welcome', 'AuthController@welcome')->name('welcome');
